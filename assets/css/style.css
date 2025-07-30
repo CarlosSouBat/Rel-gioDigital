@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+AU+QLD:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Whereas recognition of the inherent dignity', sans-serif;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    background: linear-gradient(3deg, #850085e0, #b700ffd8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0 8 1500px rgba(0,0,0, .5)
+
+}
+
+
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    box-shadow: 0 8px 19px rgb(0, 0, 0);
+    letter-spacing: 3px;
+
+
+}
+
+.relogio span {
+    font-size: 20px;
+    color: #0b0000;
+    text-shadow: 0 0 10px rgba(249, 79, 255, 0.5);
+
+}
+
+.relogio.tempo {
+    font-size: 10px;
+    color: #0b0000;
+    text-shadow: 0 0 10px rgba(249, 79, 255, 0.5);
+}
+
+.relogio span#horas {
+    font-size: 50px;
+    color: #0b0000;
+    text-shadow: 0 0 10px rgba(249, 79, 255, 0.5);
+}
+
+.relogio span#minutos {
+    font-size: 50px;
+    color: #0b0000;
+    text-shadow: 0 0 10px rgba(249, 79, 255, 0.5);
+}
+
+.relogio span#segundos {
+    font-size: 50px;
+    color: #0b0000;
+    text-shadow: 0 0 10px rgba(249, 79, 255, 0.5);
+}
+
